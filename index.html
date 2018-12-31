@@ -1,0 +1,41 @@
+<head>
+    <title>Twitch App by duttakapil</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Twitch App</h1>
+    </div>
+    <div class="container col-md-8">
+        <h3>What is FreeCodeCamp?</h3>
+        <img  src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" alt="FreeCodeCamp Curriculum" align="left" class="containImg">
+        <div class="content"><p> <a href="https://www.freecodecamp.com/">FreeCodeCamp</a> is a free online bootcamp for people willing to learn to code. We have a 1600 hours long curriculum that includes working with NPO's, solving few JavaScript challenges, and a few front-end and full-stack projects. This is one of the few front-end projects built by a camper (<a href="https://www.freecodecamp.com/duttakapil">Kapil Dutta</a>). If you find this project intresting enough and want to build something similar, you can <a href="https://www.freecodecamp.com/">join FreeCodeCamp right now.</a></p>
+        <br>
+        <p>We also stream on Twitch a lot about anything relating JavaScript. You can <a href="https://www.twitch.tv/freecodecamp">follow us on Twitch</a> to get notified when we stream next.</p>
+        </div>
+        <br>
+        <div class="show"><h4>Who all are streaming?</h4><p class="isStreaming">No one is streaming right now. You can add a new user to the list on the right.</p><table class="table table-hover">
+            <tr class="tableHead">
+            <th>#</th>
+            <th>User</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Address</th>
+            <tr>
+        </table></div>
+    </div>  
+    <div class="right col-md-3">
+        <form class="searchForm"><input id="search" placeholder="Submit User" class="col-md-8"></input>
+        &nbsp;
+        <button type="button" class="submit btn btn-success">Submit!</button>      
+        </form>
+        <br>
+        <div class="twitchList">
+        <ul id="objects" class="list-group">     
+        </ul>
+    </div>
+    </div>  
+</body>  
